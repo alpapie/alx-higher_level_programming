@@ -4,7 +4,7 @@ br = random.randint(-10000, 10000)
 
 if br < 0:
     lt = br % -10
-    print("Last digit of {} is {} and is less than 6 and not 0".format(nr, lt))
+    print("Last digit of {} is {} and is less than 6 and not 0".format(br, lt))
 else:
     lt = br % 10
     if lt > 5:
