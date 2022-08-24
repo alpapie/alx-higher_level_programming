@@ -8,4 +8,3 @@ def uppercase(str):
             char = chr(ord(char) - 32)
             mot= mot + char
     print("{}".format(mot))
-uppercase("holberton")
