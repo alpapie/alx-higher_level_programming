@@ -1,4 +1,9 @@
 #!/usr/bin/python3
 def remove_char_at(str, n):
-    return print(str[:n] + str[n+1:])
-remove_char_at("alpapie", -5)
+    char_to_be_removed = 0
+    blank = ""
+    for character in str[:]:
+        if char_to_be_removed != n:
+            blank = blank + character
+        char_to_be_removed += 1
+    return blank
